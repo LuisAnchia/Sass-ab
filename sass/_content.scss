@@ -74,8 +74,7 @@
 .Display-nineth--about{
   @include Display-General();
   gap: 2%;
-  background-image: url ("images/portfolio/Rectangle64.png");
-  background-color: grey ; /*Profe puse un background porque no me carga la imagen*/
+  background-image: url(../images/portfolio/rectangulo.png);
   background-size: cover;
   background-repeat: repeat;
   align-items: center;
@@ -125,8 +124,7 @@
 
 .backgrounnd-fifth--about{
   margin-top: 9%;
-  background-image: url("images/portfolio/Rectangle64.png");
-  background-color: grey; /*Profe puse un background porque no me carga la imagen*/
+  background-image: url(../images/portfolio/Rectangle64.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

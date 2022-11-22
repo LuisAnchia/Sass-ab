@@ -1,0 +1,90 @@
+$colorPrimary:white;
+$colorSecundary:#E27D60;
+$colorThirdary: #303030;
+
+footer {
+  background-color: $colorThirdary;
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+footer{
+  section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3%;
+    align-items: center;
+    padding: 6% 0%;
+  }
+}
+/*footer > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3%;
+  align-items: center;
+  padding: 6% 0%;
+}*/
+
+footer{
+  section{
+    div{
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+  }
+}
+/*footer > section > div {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}*/
+
+footer{
+  section{
+    div{
+      h2{
+        color: $colorSecundary
+      }
+    }
+  }
+}
+/*footer > section > div > h2 {
+  color: $colorSecundary
+}*/
+
+footer{
+  section{
+    div{
+      a{
+        color: $colorPrimary
+      }
+    }
+  }
+}
+/*footer > section > div > a {
+  color: $colorPrimary
+}*/
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #E6E6E6;
+  opacity: 0.5;
+  font-size: 60%;
+  margin-bottom: 1%
+}
+
+.flex-about-colum{
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}

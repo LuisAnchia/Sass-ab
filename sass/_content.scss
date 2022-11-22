@@ -1,0 +1,147 @@
+/*Display general*/
+/*Mixin*/
+
+@mixin Display-General {
+  margin-top: 9%;
+  display: flex;
+  justify-content: center;
+}
+
+.Display-first--about{
+  margin-top: 9%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  padding: 3% 18% 3% 18%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, #E6E6E6 68%, white 35% );
+  padding-left: 0%;
+}
+
+.display-second-about{
+  padding: 3% 18% 3% 18%;
+  gap: 9%;
+  @include Display-General();
+}
+
+.Display-third--about{
+  margin-top: 9%;
+  display: flex;
+  gap: 10%;
+  padding: 3% 18% 3% 19%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, #ffffff 35%, #e6e6e6 35%);
+  padding-right: 0%;
+}
+
+.Display-fourth-0--about{
+  margin-top: 9%;
+  display: grid;
+  justify-items: center;
+  gap: 60%;
+}
+
+.Display-fourth--about{
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Display-fifht--about{
+  margin-top: 9%;
+  display: grid;
+  justify-content: center;
+}
+
+.Display-sixth--about{
+  @include Display-General();
+  gap: 5%;
+  
+}
+
+.Display-seventh--about{
+  @include Display-General();
+  gap: 10%;
+}
+
+.Display-eight--about{
+  @include Display-General();
+  gap: 2%;
+}
+
+.Display-nineth--about{
+  @include Display-General();
+  gap: 2%;
+  background-image: url ("images/portfolio/Rectangle64.png");
+  background-color: grey ; /*Profe puse un background porque no me carga la imagen*/
+  background-size: cover;
+  background-repeat: repeat;
+  align-items: center;
+}
+
+/*Abouts*/
+
+.first--about{
+  display: grid;
+  text-align: end;
+  align-content: center;
+  gap: 5%;
+}
+
+.second-about{
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  text-align: -webkit-center;
+  gap: 14%;
+  width: 205px
+}
+
+.third--about{
+  display: grid;
+  align-content: space-evenly;
+}
+
+.seventh--about{
+  display: grid;
+  align-content: space-evenly;
+}
+
+.nineth--about{
+  -webkit-user-modify: read-write-plaintext-only;
+  padding-top: 47px;
+}
+
+.Seventh-2-about{
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  text-align: end;
+  justify-content: center;
+}
+
+.backgrounnd-fifth--about{
+  margin-top: 9%;
+  background-image: url("images/portfolio/Rectangle64.png");
+  background-color: grey; /*Profe puse un background porque no me carga la imagen*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.fifth-FormGap--about{
+  -webkit-user-modify: read-write-plaintext-only;
+}
+
+.pages-everyone--about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7%;
+}

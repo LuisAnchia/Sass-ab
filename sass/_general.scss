@@ -1,0 +1,109 @@
+$colorPrimary:white;
+$colorSecundary:#E27D60;
+$colorThirdary: #303030;
+
+
+/*Parrafos*/
+
+.p1-gneral-white--about{
+  color: $colorPrimary;
+  font-size: 16px;
+}
+
+.p3-general-white--about{
+  color:$colorPrimary;
+}
+
+.p3-general--about{
+  color: $colorThirdary;
+}
+
+.p3-general-white--about{
+  color: $colorPrimary;
+}
+
+.p3-general-white--about > span{
+  color: $colorSecundary;
+}
+
+.p6-general--about{
+  color: $colorThirdary;
+  font-size: 12px;
+}
+
+/*Titulos*/
+/*Mixins*/
+
+@mixin font-zise-36 {
+  font-size: 36;
+
+}
+ 
+.h3-general-about{
+  color: $colorSecundary;
+  @include font-zise-36()
+}
+
+.h3-general-black--about{
+  color: $colorThirdary;
+  @include font-zise-36()
+}
+
+.h3-general-white--about{
+  font-size: 36px;
+  color: $colorPrimary;
+}
+
+.h6-general--about{
+  color: $colorSecundary;
+  font-size: 14px;
+}
+
+/*Buttons*/
+/*mixin*/
+
+@mixin btn-general {
+  margin: auto;
+  border-radius: 2px;
+}
+
+.button-third--about{
+  background-color: $colorThirdary;
+  color: $colorPrimary;
+  padding: 10px 40px;
+  @include btn-general()
+}
+
+.button-fifht--about{
+  background-color: $colorThirdary;
+  color: $colorPrimary;
+  padding: 10px 25px;
+  margin-top: 30px;
+  @include btn-general()
+}
+
+.button-third--about{
+  background-color: #e6e6e6;
+}
+
+
+.Button-form-fifth{
+  width: 570px;
+  height: 42px;
+  left: 875px;
+
+}
+.button-nineth--about{
+  background-color: $colorThirdary;
+  color: $colorPrimary;
+  padding: 1px 10px;
+  border-radius: 2px;
+}
+
+.button-Doctor--about{
+  background-color: $colorThirdary;
+  color: $colorPrimary;
+  padding: 10px 25px;
+  @include btn-general();
+  margin-top: 10%;
+}

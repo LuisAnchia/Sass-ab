@@ -1,0 +1,467 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "libre franklin";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #F5F5F5;
+}
+
+a {
+  color: black;
+}
+
+/*16/3  8 4 4*/
+/*Anide y meti el & para hacer el hover llame el color con una variable*/
+header {
+  height: 10rem;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  gap: 10%;
+}
+header nav:hover {
+  color: #E27D60;
+}
+header header > div {
+  display: flex;
+  gap: 20%;
+}
+header nav a {
+  display: flex;
+}
+
+.a-flex-about {
+  display: flex;
+  gap: 20%;
+}
+
+/*Parrafos*/
+.p1-gneral-white--about {
+  color: white;
+  font-size: 16px;
+}
+
+.p3-general-white--about {
+  color: white;
+}
+
+.p3-general--about {
+  color: #303030;
+}
+
+.p3-general-white--about {
+  color: white;
+}
+
+.p3-general-white--about > span {
+  color: #E27D60;
+}
+
+.p6-general--about {
+  color: #303030;
+  font-size: 12px;
+}
+
+/*Titulos*/
+/*Mixins*/
+.h3-general-about {
+  color: #E27D60;
+  font-size: 36;
+}
+
+.h3-general-black--about {
+  color: #303030;
+  font-size: 36;
+}
+
+.h3-general-white--about {
+  font-size: 36px;
+  color: white;
+}
+
+.h6-general--about {
+  color: #E27D60;
+  font-size: 14px;
+}
+
+/*Buttons*/
+/*mixin*/
+.button-third--about {
+  background-color: #303030;
+  color: white;
+  padding: 10px 40px;
+  margin: auto;
+  border-radius: 2px;
+}
+
+.button-fifht--about {
+  background-color: #303030;
+  color: white;
+  padding: 10px 25px;
+  margin-top: 30px;
+  margin: auto;
+  border-radius: 2px;
+}
+
+.button-third--about {
+  background-color: #e6e6e6;
+}
+
+.Button-form-fifth {
+  width: 570px;
+  height: 42px;
+  left: 875px;
+}
+
+.button-nineth--about {
+  background-color: #303030;
+  color: white;
+  padding: 1px 10px;
+  border-radius: 2px;
+}
+
+.button-Doctor--about {
+  background-color: #303030;
+  color: white;
+  padding: 10px 25px;
+  margin: auto;
+  border-radius: 2px;
+  margin-top: 10%;
+}
+
+footer {
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3%;
+  align-items: center;
+  padding: 6% 0%;
+}
+
+/*footer > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3%;
+  align-items: center;
+  padding: 6% 0%;
+}*/
+footer section div {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+/*footer > section > div {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}*/
+footer section div h2 {
+  color: #E27D60;
+}
+
+/*footer > section > div > h2 {
+  color: $colorSecundary
+}*/
+footer section div a {
+  color: white;
+}
+
+/*footer > section > div > a {
+  color: $colorPrimary
+}*/
+footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #E6E6E6;
+  opacity: 0.5;
+  font-size: 60%;
+  margin-bottom: 1%;
+}
+
+.flex-about-colum {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+/*Display general*/
+/*Mixin*/
+.Display-first--about {
+  margin-top: 9%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  padding: 3% 18% 3% 18%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #E6E6E6 68%, white 35%);
+  padding-left: 0%;
+}
+
+.display-second-about {
+  padding: 3% 18% 3% 18%;
+  gap: 9%;
+  margin-top: 9%;
+  display: flex;
+  justify-content: center;
+}
+
+.Display-third--about {
+  margin-top: 9%;
+  display: flex;
+  gap: 10%;
+  padding: 3% 18% 3% 19%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #ffffff 35%, #e6e6e6 35%);
+  padding-right: 0%;
+}
+
+.Display-fourth-0--about {
+  margin-top: 9%;
+  display: grid;
+  justify-items: center;
+  gap: 60%;
+}
+
+.Display-fourth--about {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Display-fifht--about {
+  margin-top: 9%;
+  display: grid;
+  justify-content: center;
+}
+
+.Display-sixth--about {
+  margin-top: 9%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.Display-seventh--about {
+  margin-top: 9%;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.Display-eight--about {
+  margin-top: 9%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.Display-nineth--about {
+  margin-top: 9%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  background-image: url "images/portfolio/Rectangle64.png";
+  background-color: grey; /*Profe puse un background porque no me carga la imagen*/
+  background-size: cover;
+  background-repeat: repeat;
+  align-items: center;
+}
+
+/*Abouts*/
+.first--about {
+  display: grid;
+  text-align: end;
+  align-content: center;
+  gap: 5%;
+}
+
+.second-about {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  text-align: -webkit-center;
+  gap: 14%;
+  width: 205px;
+}
+
+.third--about {
+  display: grid;
+  align-content: space-evenly;
+}
+
+.seventh--about {
+  display: grid;
+  align-content: space-evenly;
+}
+
+.nineth--about {
+  -webkit-user-modify: read-write-plaintext-only;
+  padding-top: 47px;
+}
+
+.Seventh-2-about {
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  text-align: end;
+  justify-content: center;
+}
+
+.backgrounnd-fifth--about {
+  margin-top: 9%;
+  background-image: url("images/portfolio/Rectangle64.png");
+  background-color: grey; /*Profe puse un background porque no me carga la imagen*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.fifth-FormGap--about {
+  -webkit-user-modify: read-write-plaintext-only;
+}
+
+.pages-everyone--about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7%;
+}
+
+.header .selector {
+  display: flex;
+  visibility: hidden;
+}
+
+.header .selector:hover {
+  visibility: visible;
+  color: #E27D60;
+}
+
+header, main, footer {
+  padding: 0 18% 0 18%;
+}
+
+a:hover {
+  color: #E27D60;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #E27D60;
+}
+
+.logo {
+  font-size: 2rem;
+  font-family: inter;
+}
+
+.address {
+  margin-left: 18%;
+  padding-right: 18%;
+  background-color: #E6E6E6;
+  display: flex;
+  flex-direction: column;
+  height: 13rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.sections-of-main {
+  display: flex;
+  justify-content: center;
+  gap: 0.5%;
+  height: 2rem;
+  margin-top: 4rem;
+}
+
+.address > p {
+  font-size: 0.65em;
+  opacity: 0.3;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media > img {
+  width: 15;
+  height: 15%;
+  display: flex;
+  margin: 4%;
+}
+
+.social-media > img:nth-child(1) {
+  height: 2.5em;
+}
+
+.join-our-newssellers {
+  display: flex;
+  flex-direction: column;
+  color: #E6E6E6;
+  gap: 10px;
+  width: 19%;
+  margin: 3%;
+}
+
+.join-our-newssellers > p {
+  font-weight: lighter;
+}
+
+#get45 {
+  color: #E27D60;
+}
+
+#e-mail--article {
+  width: 53em;
+  padding: 2% 0% 2% 5%;
+}
+
+#suscribe--article {
+  background-color: #303030;
+  color: #E6E6E6;
+  margin-left: 10%;
+  padding: 2% 10% 2% 10%;
+}
+
+.form--article {
+  display: flex;
+  flex-direction: row;
+}
+
+/*General-contents-Abbout*/
+
+/*# sourceMappingURL=styles.css.map */

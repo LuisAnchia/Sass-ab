@@ -1,0 +1,29 @@
+
+/*Anide y meti el & para hacer el hover llame el color con una variable*/
+$colorSecundary:#E27D60;
+
+header{
+  height: 10rem;
+  align-items: center;
+  nav{
+     &:hover{
+      color: $colorSecundary;
+     }
+    display: flex;
+    gap: 10%;
+  }
+
+  header > div {
+    display: flex;
+    gap: 20%;
+  }
+
+  nav a{
+    display: flex;
+  }
+}
+
+.a-flex-about{
+  display: flex;
+  gap: 20%;
+}
